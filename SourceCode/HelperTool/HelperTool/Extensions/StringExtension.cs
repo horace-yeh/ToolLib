@@ -10,7 +10,7 @@ namespace HelperTool.Extensions
         }
 
 
-        public static string ToJson(this object model)
+        public static string ToJson<T>(this T model)
         {
             return JsonConvert.SerializeObject(model);
         }
