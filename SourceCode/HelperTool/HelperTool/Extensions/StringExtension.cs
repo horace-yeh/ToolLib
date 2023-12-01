@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace HelperTool.Extensions
+namespace ExtensionHelper.Extensions
 {
     public static class StringExtension
     {
